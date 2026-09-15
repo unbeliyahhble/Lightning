@@ -9,12 +9,6 @@ void setup() {
   frameRate(125); 
 } 
 
-void mousePressed() { 
-  x = 200; 
-  y = 0; 
-  coords.clear(); 
-} 
-
 void draw() { 
   
   if (y <= 500) {
@@ -66,4 +60,10 @@ void draw() {
     
   }
   
+} 
+
+void mousePressed() { 
+  x = 200; 
+  y = 0; 
+  coords.clear(); 
 } 
